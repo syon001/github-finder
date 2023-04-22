@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #0d1117;
+}
+
+.nav{
+    background: #161b22;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar{
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.search{
+    color: #fff;
+    border: 2px #30363d solid;
+    border-radius: 8px;
+    width: 80%;
+    margin: 5px 10%;
+    text-align: center;
+    padding: 10px;
+}
+
+.search h1{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.search input{
+    font-size: 22px;
+    color: #fff;
+    background-color: transparent;
+    border: #fff 2px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    max-width: 80%;
+}
+
+.card{
+    color: #fff;
+    border: 2px #30363d solid;
+    border-radius: 8px;
+    width: 80%;
+    margin: 5px 10%;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+.imgpro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img{
+    margin-left: 50px;
+    height: 180px;
+    width: 180px;
+    border: #30363d 2px solid;
+    border-radius: 50%;
+}
+
+.btn{
+    margin-left: 50px;
+    width: 180px;
+    color: #fff;
+    background: #161b22;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.prodet{
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.hr1{
+    margin: 10px 0;
+    margin-left: 50px;
+}
+
+.hr2{
+    margin: 10px;
+}
+
+.box{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.list-group{
+    list-style: none;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.latestrepo{
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.reponame{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.repo-row{
+    display: flex;
+    justify-content: space-between;
+}
